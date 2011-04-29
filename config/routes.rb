@@ -1,4 +1,12 @@
 DisciplerApp::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/purpose"
+
+  get "pages/settings"
+
+  get "pages/help"
+
   resources :users
 
   # The priority is based upon order of creation:
