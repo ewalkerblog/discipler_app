@@ -1,11 +1,13 @@
 DisciplerApp::Application.routes.draw do
-  get "pages/home"
-
-  get "pages/purpose"
-
-  get "pages/settings"
-
-  get "pages/help"
+   get "users/new"
+   
+   match '/signup', :to => 'users#new'
+   
+   match '/purpose', :to => 'pages#help'
+   match '/settings',   :to => 'pages#settings'
+   match '/help',    :to => 'pages#help'
+   
+   root :to => 'pages#home'
 
   resources :users
 

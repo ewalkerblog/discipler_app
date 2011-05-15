@@ -1,0 +1,119 @@
+/* Main */
+
+* {
+margin: 0;
+}
+
+  html, body {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  background: url('/images/background.png');
+  background-position:center;
+  overflow: hidden;	
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -10em;
+  width: 100%;
+}
+
+.push {
+  height: 10em;
+}
+
+/* Header */
+
+.header {
+  text-align:center;
+}
+
+/* Links */
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #09c;
+}
+
+/* Navigation */
+nav {
+  float: top left;
+}
+
+nav {
+  background-color: clear;
+  padding:0
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+  font-size: 120%;
+  font-family: Arial
+}
+
+nav ul li a:visited {
+  color: #fff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/*Section */
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  opacity: 1;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+/* Fat Footer */
+.footer {
+  overflow: hidden;
+  height: 15em;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  background: url('/images/footer.png') repeat;
+
+}
+
+/* Round corners */
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+
